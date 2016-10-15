@@ -1,0 +1,39 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url(abstract-mosaic-background.png);
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.fa-envelope-square, .fa-linkedin-square, .fa-twitter-square, .fa-github-square {
+  color: black;
+  font-size: 50px;
+}
+
+.fa-envelope-square:hover, .fa-linkedin-square:hover, .fa-twitter-square:hover, .fa-github-square:hover {
+  color: gray;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#header {
+  text-align: center;
+  font-size: 40px;
+}
+
+#links {
+    text-align: center;
+}
