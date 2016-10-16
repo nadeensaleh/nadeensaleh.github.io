@@ -12,14 +12,12 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap theme -->
     <link href="BOOTSTRAP/css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" >
 
-    <!-- Custom styles for this template -->
+    <!-- Custom sheets-->
     <link href="homepage.css" rel="stylesheet">
     <link href="real-world.css" rel="stylesheet">
 
@@ -29,7 +27,6 @@
 
   <body role="document">
 
-    <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -43,30 +40,23 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-
             <li class="active"><a href="#"><span class="fa fa-home fa-fw"></span> Home</a></li>
-
-
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-university fa-fw"></span> Research<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a target="_blank" href="REU-SOS_Poster.pdf">NCSU REU Summer '16</a></li>
                 <li><a target="_blank" href="FAU_RA_Spring2016.pdf">FAU Undergraduate Research Grant Spring '16 (1st<span class="fa fa-trophy fa-fw"></span>)</a></li>
                 <li><a target="_blank" href="http://www.nyit.edu/files/uploads/00/engineering/REU_Poster_Nadeen_final.pdf">NYIT REU Summer '15</a></li>
-
               </ul>
             </li>
-
           </ul>
         </div>
       </div>
     </div>
 
     <div class="container theme-showcase" role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <!-- Type effect below -->
+
         <div id="header">
           <p id="typed" style="display: inline"></p>
           <h2 class="blink" style="display: inline;">|</h2>
@@ -92,24 +82,19 @@
             <a target="_blank" href="https://www.twitter.com/nadeensaleh_"><span class="fa fa-twitter-square fa-fw"></span></a>
           </p>
           <p>
-            <!-- <a target="_blank" href="http://lamp.cse.fau.edu/~nsaleh2012/Main.html" class="btn btn-default btn-lg" role="button">Most recent work <span class="fa fa-chevron-circle-right fa-fw"></span></a> -->
             <a target="_blank" href="Resume.pdf" class="btn btn-primary btn-lg code" role="button">R&eacute;sum&eacute;/CV<span class="fa fa-chevron-circle-right fa-fw"></span></a>
           </p>
         </div>
       </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script src="https://getbootstrap.com/assets/js/docs.min.js"></script>
 
     <script>
-      var str = "<span class='code' style='font-size: 50px'>" +
-          "<span style='display: inline'>nadeen saleh // comp sci</span><br>" +
-          "<h2 style='display: inline'> <span style='color: green'>current status:</span> intern @ Ultimate Software</h2>" +
+      var str = "<span class='code'>" +
+          "<span style='display: inline; font-size: 50px;'>nadeen saleh // comp sci</span><br>" +
+          "<span style='display: inline; font-size: 30px'> <span style='color: green'>current status:</span> intern @ Ultimate Software</span>" +
         "</span>",
         i = 0,
         isTag,
